@@ -1,5 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
 config SHIELD_MADTRIX_LEFT
-	def_bool $(shields_list_contains,madtrix_left)
+    def_bool $(shields_list_contains,madtrix_left)
 
 config SHIELD_MADTRIX_RIGHT
-	def_bool $(shields_list_contains,madtrix_right)
+    def_bool $(shields_list_contains,madtrix_right)
